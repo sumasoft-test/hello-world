@@ -1,2 +1,2 @@
-<h1> Hello, Welcome to GOT Season 1 !!! </h1>
+<h1> Hello, Welcome to GOT Season 2 !!! </h1>
 
