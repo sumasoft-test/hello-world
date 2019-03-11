@@ -2,9 +2,10 @@ pipeline {
     agent any
 
     stages {
-        stage('confirm')
+        stage('confirm') {
             steps {
                input("do you want to continue")
+            }
             }
         stage('Build') {
             steps {
