@@ -2,6 +2,10 @@ pipeline {
     agent any
 
     stages {
+        stage('confirm')
+            steps {
+               input("do you want to continue")
+            }
         stage('Build') {
             steps {
                 echo 'Building..'
