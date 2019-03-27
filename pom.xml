@@ -161,7 +161,11 @@
       </plugins>
     </pluginManagement>
   </build>
-
+<repository>
+   <id>deployment</id>
+   <name>Internal Release</name>
+   <url>http://10.0.4.94:8081/repository/test1/</url>
+</repository>
   <dependencyManagement>
     <dependencies>
       <dependency>
